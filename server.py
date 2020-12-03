@@ -303,6 +303,9 @@ def build(nodes=None, nodes_file=None, edges=None, edges_file=None, alert_file=N
         edges = pd.read_csv(edges_file)
 
         # convert string values to real lists
+        nodes['Ports in'] = nodes['Ports in'].apply(lambda x: ast.literal_eval(x))
+        nodes['Ports out'] = nodes['Ports out'].apply(lambda x: ast.literal_eval(x))
+
         edges['Attack Name'] = edges['Attack Name'].apply(lambda x: ast.literal_eval(x))
         edges['Classification'] = edges['Classification'].apply(lambda x: ast.literal_eval(x))
         edges['Priority'] = edges['Priority'].apply(lambda x: ast.literal_eval(x))
@@ -322,7 +325,7 @@ def build(nodes=None, nodes_file=None, edges=None, edges_file=None, alert_file=N
     else:
         # check for valid time_ranges
         if not isinstance(time_ranges, list) or len(time_ranges) == 0:
-            print('ERROR: Invalid time ranges')
+            print('[*]ERROR: Invalid time ranges')
             exit(-1)
         # load given data (nodes = list of list of nodes)
         g_nodes_list = nodes
@@ -332,6 +335,15 @@ def build(nodes=None, nodes_file=None, edges=None, edges_file=None, alert_file=N
         # print(str(current_nodes))
         # print(str(current_edges))
         flag_use_file = False
+
+    if not flag_use_file:
+        # format the time range
+        time_range_dataset = time_ranges[len(time_ranges) - 1] - time_ranges[0]
+        time_range_dataset = pretty_time_delta(time_range_dataset)
+    else:
+        # no time range
+        time_range_dataset = '-'
+
 
     # calculate some general information
     sum_alerts = 0
@@ -343,7 +355,6 @@ def build(nodes=None, nodes_file=None, edges=None, edges_file=None, alert_file=N
             elif column == 'Weight':
                 sum_alerts += value
 
-    time_range_dataset = time_ranges[len(time_ranges) - 1] - time_ranges[0]
     ##time_range_dataset_str = time_range_dataset.strftime("%d-%H:%M:%S")
 
     ######### building html components
@@ -466,14 +477,14 @@ def build(nodes=None, nodes_file=None, edges=None, edges_file=None, alert_file=N
                                 **General Dataset Information**  
                                 
                                 Imported log file: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{str(alert_file_name)}*  
-                                CSV nodes file: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{str(nodes_file_name)}*  
-                                CSV edges file: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{str(edges_file_name)}*  
+                                CSV nodes file: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{str(nodes_file_name)}*  
+                                CSV edges file: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{str(edges_file_name)}*  
                                 Processing time: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{str(round(process_time()-timer_start,3)) + ' s'}*  
 
                                 Number of nodes: &nbsp; &nbsp; &nbsp; &nbsp;*{str(len(current_nodes))}*  
                                 Number of edges: &nbsp; &nbsp; &nbsp; &nbsp;*{str(len(current_edges))}*  
 
-                                Time range: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{str(pretty_time_delta(time_range_dataset))}*  
+                                Time range: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*{str(time_range_dataset)}*  
                                 Number of attacks: &nbsp; &nbsp; &nbsp;*{str(sum_attacks)}*  
                                 Number of alerts: &nbsp; &nbsp; &nbsp; &nbsp;*{str(sum_alerts)}*  
                                 """

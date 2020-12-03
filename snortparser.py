@@ -420,12 +420,14 @@ class Edge:
 
     def to_dict(self):
         # shorten list of timestamps (to big for csv)
-        for index, timestamps in enumerate(self.timestamps):
-            if len(timestamps) > 10:
-                # take the first 10 timestamps -> ToDo ?!
-                self.timestamps[index] = timestamps[:10]
+        # for index, timestamps in enumerate(self.timestamps):
+        #     if len(timestamps) > 10:
+        #         # take the first 10 timestamps -> ToDo ?!
+        #         self.timestamps[index] = timestamps[:10]
+
         # Update: just take first and last timestamp
-        self.timestamps = timestamps[0] + " --- " + timestamps[-1]
+        for index, timestamps in enumerate(self.timestamps):
+            self.timestamps[index] = str(timestamps[0]) + " --- " + str(timestamps[-1])
         return {
             'Attack Name': self.attack_names,
             'Classification': self.classifications,
