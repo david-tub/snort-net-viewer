@@ -1,0 +1,8 @@
+dash>=1.13.4
+networkx>=2.4
+plotly>=4.8.2
+matplotlib>=3.3.0
+pandas>=1.0.5
+numpy>=1.19.0
+Markdown>=3.3.3
+colour>=0.1.5
