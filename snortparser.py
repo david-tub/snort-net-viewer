@@ -1,9 +1,7 @@
-import json
+import copy
+import datetime
 import re
 import pandas as pd
-import datetime
-import time
-import copy
 
 current_min_number_alerts = 0  # minimal number of an alert
 current_max_number_alerts = 0  # maximal number of an alert
@@ -108,7 +106,7 @@ def import_alerts(all_alerts):
             alert_obj.to_port = m.group(5).strip()
 
         # lines 3 and 4 contain packet information
-        # because every line will be unique, we will leave it out
+        # because every line will be unique, we will leave it out for now
 
         # if 3 < len(alert):
         #     alert_obj.additional = alert[3]
@@ -125,6 +123,9 @@ def import_alerts(all_alerts):
             alerts_validated.append(alert_obj)
         else:
             alerts_corrupted.append(alert_obj)
+
+    # sort all alerts by timestamp
+    alerts_validated = sorted(alerts_validated, key=lambda x: datetime.datetime.strptime(x.timestamp, "%Y/%m/%d-%H:%M:%S.%f"))
 
     print('[*] Importing alerts successful (' + str(len(alerts_validated)) + ' successful / ' + str(
         len(alerts_corrupted)) + ' ignored)')

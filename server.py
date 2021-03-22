@@ -1,35 +1,25 @@
-#################################################
-#              Snort Net Viewer            #
-#            author: David Krüger          #
-#            https://github.com/goooroooX  #
-#################################################
-import io
+######################################################
+#    Snort Net Viewer                                #
+#    author: David Krüger                            #
+#    https://github.com/david-tub/snort-net-viewer   #
+######################################################
+import ast
+import json
+import os
 import pathlib
+import re
+from textwrap import dedent as d
+from time import process_time
 
-import dash_table
-
-import snortparser as my_parser
-import argparse
-from pathlib import Path
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import dash_table
 import networkx as nx
-import plotly.graph_objs as go
-import matplotlib.pyplot as plt
-
-import pandas as pd
-from colour import Color
-from datetime import datetime
-from textwrap import dedent as d
-import json
 import numpy as np
-import re
-import os
-import markdown
-from time import process_time
-
-import ast
+import pandas as pd
+import plotly.graph_objs as go
+from colour import Color
 
 # import the css template, and pass the css template into dash
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
@@ -70,7 +60,6 @@ def network_graph(NODE_TO_CENTER):
     nx.set_node_attributes(G, nodes.set_index('IP')['Type'].to_dict(), 'Type')
     nx.set_node_attributes(G, nodes.set_index('IP')['Ports in'].to_dict(), 'Ports in')
     nx.set_node_attributes(G, nodes.set_index('IP')['Ports out'].to_dict(), 'Ports out')
-
     # pos = nx.layout.spring_layout(G)
     # pos = nx.layout.circular_layout(G)
     # pos = nx.layout.spiral_layout(G)
@@ -111,7 +100,6 @@ def network_graph(NODE_TO_CENTER):
     # TODO - color range according to the attack priorities??
     colors = list(Color('black').range_to(Color('black'), len(G.edges())))
     colors = ['rgb' + str(x.rgb) for x in colors]
-
     index = 0
     for edge in G.edges:
         x0, y0 = G.nodes[edge[0]]['pos']
@@ -276,6 +264,7 @@ def build(nodes=None, nodes_file=None, edges=None, edges_file=None, alert_file=N
     :param alert_file: if existing: csv file which needs to be loaded (display-only)
     :param time_ranges: if existing: list of time ranges/steps for filter component
     """
+    print('[*] Start building the server')
     # for debug purpose: increase display range of dicts
     pd.set_option("display.max_rows", None, "display.max_columns", None)
 
@@ -332,6 +321,10 @@ def build(nodes=None, nodes_file=None, edges=None, edges_file=None, alert_file=N
         g_edges_list = edges
         current_nodes = nodes[-1]
         current_edges = edges[-1]
+
+        print('[**] Number of Nodes: ' + str(len(current_nodes)))
+        print('[**] Number of Edges: ' + str(len(current_edges)))
+
         # print(str(current_nodes))
         # print(str(current_edges))
         flag_use_file = False
@@ -672,3 +665,4 @@ def build(nodes=None, nodes_file=None, edges=None, edges_file=None, alert_file=N
         # example = ['[Stack Overflow](http://stackoverflow.com)', '[Stack Overflow](http://stackoverflow.com)']
         return new
 
+    print('[*] Server build successfully')

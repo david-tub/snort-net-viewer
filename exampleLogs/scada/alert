@@ -1,0 +1,834 @@
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:38:13.337046 192.168.1.100:2437 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:23106 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0x8D83065  Ack: 0x2A23145  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:38:18.651663 192.168.1.101:502 -> 192.168.1.100:2437
+TCP TTL:128 TOS:0x0 ID:28204 IpLen:20 DgmLen:74 DF
+***AP**F Seq: 0x2A23156  Ack: 0x8D8307E  Win: 0xFACC  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:38:21.847891 192.168.1.100:2495 -> 192.168.1.105:502
+TCP TTL:128 TOS:0x0 ID:23269 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x388B856E  Ack: 0x86EA7DA9  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:38:33.131633 192.168.1.99:2132 -> 192.168.1.107:502
+TCP TTL:128 TOS:0x0 ID:24079 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x752F9AA7  Ack: 0xFBC1474A  Win: 0xFADF  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:39:22.127098 192.168.1.99:2319 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:25212 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x3A7863BB  Ack: 0xB47CEB30  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:39:23.650504 192.168.1.99:2319 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:25216 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0x3A7863C7  Ack: 0xB47CEB30  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:39:28.833964 192.168.1.99:2333 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:25424 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xCEB2DAAC  Ack: 0x4EC75101  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:39:29.150387 192.168.1.99:2333 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:25426 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xCEB2DAB8  Ack: 0x4EC75101  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-14:39:29.526372 192.168.1.99:2317 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:25428 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x6591122C  Ack: 0x7410D426  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-14:39:29.592800 192.168.1.100:2703 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:24822 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xBA219454  Ack: 0x5A1FEB4E  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:39:29.635390 192.168.1.112:502 -> 192.168.1.99:2333
+TCP TTL:128 TOS:0x0 ID:37286 IpLen:20 DgmLen:74 DF
+***AP*** Seq: 0x4EC75112  Ack: 0xCEB2DAC5  Win: 0xFACC  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:08.803158 192.168.1.100:2851 -> 192.168.1.110:502
+TCP TTL:128 TOS:0x0 ID:25535 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x2EF62999  Ack: 0x6E1C87B9  Win: 0xFADF  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:09.985076 192.168.1.100:2852 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:25548 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xF550AC7  Ack: 0x1ACEB11E  Win: 0xFADF  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:09.985077 192.168.1.100:2853 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:25549 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x6E51BC86  Ack: 0xA141E3CD  Win: 0xFADF  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:09.985106 192.168.1.100:2855 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:25558 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x977CB6C6  Ack: 0x15CCAFB3  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:10.642716 192.168.1.100:2856 -> 192.168.1.110:502
+TCP TTL:128 TOS:0x0 ID:25576 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x775B7F80  Ack: 0x25651E37  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:10.642717 192.168.1.100:2854 -> 192.168.1.108:502
+TCP TTL:128 TOS:0x0 ID:25577 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x60C285B8  Ack: 0x70789AEC  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:12.345446 192.168.1.100:2855 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:25580 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x977CB6D2  Ack: 0x15CCAFB3  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:13.271670 192.168.1.100:2855 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:25640 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x977CB6DE  Ack: 0x15CCAFB3  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:14.120728 192.168.1.101:502 -> 192.168.1.100:2855
+TCP TTL:128 TOS:0x0 ID:28491 IpLen:20 DgmLen:74 DF
+***AP**F Seq: 0x15CCAFC4  Ack: 0x977CB6EB  Win: 0xFACC  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:14.120732 192.168.1.100:2874 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:25696 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x7D40C0A0  Ack: 0x2580E4F8  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:18.541615 192.168.1.99:2518 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:26495 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x2BE6994C  Ack: 0x4BB685D8  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-14:40:20.012282 192.168.1.99:2507 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:26546 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x177AB1C  Ack: 0x702FE8DD  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:22.830813 192.168.1.100:2895 -> 192.168.1.105:502
+TCP TTL:128 TOS:0x0 ID:25849 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x85E54FF  Ack: 0x2281E3AD  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:40:22.839521 192.168.1.100:2899 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:25855 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x531CB3A0  Ack: 0x2A9E4EE2  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:41:08.101518 192.168.1.99:2716 -> 192.168.1.108:502
+TCP TTL:128 TOS:0x0 ID:27645 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x6BFB93FF  Ack: 0x7A445458  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:41:08.132638 192.168.1.100:3036 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:26791 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x83D260F9  Ack: 0xF5A72C8F  Win: 0xFAF0  TcpLen: 20
+
+[**] [120:3:1] (http_inspect) NO CONTENT-LENGTH OR TRANSFER-ENCODING IN HTTP RESPONSE [**]
+[Classification: Unknown Traffic] [Priority: 3] 
+04/30-14:41:08.132654 192.168.1.100:3037 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:26792 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xF103D96  Ack: 0xC564A3D6  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:41:08.140653 192.168.1.100:3039 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:26805 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xC4EB04D4  Ack: 0x8025C2F3  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:41:08.140654 192.168.1.100:3038 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:26806 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xD47C6005  Ack: 0x432257B6  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:41:09.863599 192.168.1.100:3036 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:26809 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x83D26105  Ack: 0xF5A72C99  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:41:09.863613 192.168.1.100:3040 -> 192.168.1.109:502
+TCP TTL:128 TOS:0x0 ID:26811 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x99568985  Ack: 0xBBF1ADE0  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:41:09.863634 192.168.1.100:3039 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:26822 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xC4EB04E0  Ack: 0x8025C2FD  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:41:10.334884 192.168.1.100:3038 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:26833 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xD47C6011  Ack: 0x432257C0  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:51:07.893483 192.168.1.99:4886 -> 192.168.1.110:502
+TCP TTL:128 TOS:0x0 ID:40671 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xE698835B  Ack: 0xC2997218  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:54:17.883147 192.168.1.99:1580 -> 192.168.1.110:502
+TCP TTL:128 TOS:0x0 ID:44751 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xC21CFA80  Ack: 0x3EE5E6CA  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:54:17.883482 192.168.1.99:1581 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:44753 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xEEB5340C  Ack: 0x24E8D403  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:54:17.883997 192.168.1.99:1582 -> 192.168.1.108:502
+TCP TTL:128 TOS:0x0 ID:44754 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x44B3A74  Ack: 0x6A9ADE2  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:54:17.884252 192.168.1.99:1583 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:44756 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x6D32ADA8  Ack: 0x1680BA70  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-14:58:57.923632 192.168.1.99:2622 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:50880 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x4DDB8FDD  Ack: 0xB2BEFA98  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:06:32.012502 192.168.1.100:4656 -> 192.168.1.108:502
+TCP TTL:128 TOS:0x0 ID:60297 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x6811F031  Ack: 0xF8E7D5DB  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:06:32.041875 192.168.1.99:4264 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:60673 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0x6FC8D25D  Ack: 0xBC7091BB  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:06:32.516989 192.168.1.99:4264 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:60674 IpLen:20 DgmLen:76 DF
+***AP**F Seq: 0x6FC8D251  Ack: 0xBC7091BB  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:06:32.855624 192.168.1.99:4251 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:60677 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xF239F6FC  Ack: 0xFEB2467C  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:06:33.475097 192.168.1.99:4244 -> 192.168.1.109:502
+TCP TTL:128 TOS:0x0 ID:60749 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xB41D8391  Ack: 0x954861FB  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:06:42.993994 192.168.1.100:4739 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:60720 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xED24188  Ack: 0x6C4C7BE  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:06:42.997688 192.168.1.100:4713 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:60721 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xBA35AD4D  Ack: 0x48C9ADA2  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:06:42.997881 192.168.1.100:4713 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:60722 IpLen:20 DgmLen:40
+*****R** Seq: 0xBA35AD4D  Ack: 0xBA35AD4D  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:06:49.310898 192.168.1.99:4368 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:61201 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x9B1661AC  Ack: 0xF69700CD  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:06:49.310912 192.168.1.99:4367 -> 192.168.1.109:502
+TCP TTL:128 TOS:0x0 ID:61204 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xB2F17603  Ack: 0x6EF11975  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:06:50.497041 192.168.1.99:4340 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:61214 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0x62968A10  Ack: 0x231FFA44  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:06:51.843779 192.168.1.99:4340 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:61225 IpLen:20 DgmLen:76 DF
+***AP**F Seq: 0x62968A04  Ack: 0x231FFA44  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:13.019520 192.168.1.100:4851 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:61418 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0xD444DBAA  Ack: 0x419E9A9C  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:23.751432 192.168.1.99:4496 -> 192.168.1.109:502
+TCP TTL:128 TOS:0x0 ID:61879 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x460368CE  Ack: 0x76274309  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:29.313727 192.168.1.99:4460 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:62085 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x3CF4DFF8  Ack: 0x633A7B08  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:29.949202 192.168.1.99:4506 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:62108 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xBF6EE5C9  Ack: 0xCB01C765  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:29.949348 192.168.1.99:4506 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:62109 IpLen:20 DgmLen:40
+*****R** Seq: 0xBF6EE5C9  Ack: 0xBF6EE5C9  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:30.864749 192.168.1.99:4502 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:62129 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x18BFB921  Ack: 0xB0B78F0C  Win: 0x0  TcpLen: 20
+
+[**] [129:12:1] Consecutive TCP small segments exceeding threshold [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:30.881218 192.168.1.99:4415 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:62133 IpLen:20 DgmLen:64
+***AP**F Seq: 0x4DBB2516  Ack: 0x8D6E0FDE  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:31.028246 192.168.1.100:4905 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:61721 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x78F5B0E7  Ack: 0x79191765  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:31.028431 192.168.1.100:4905 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:61724 IpLen:20 DgmLen:40
+*****R** Seq: 0x78F5B0E7  Ack: 0x78F5B0E7  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:33.932522 192.168.1.100:4945 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:61894 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x679812  Ack: 0xDDBCCDB8  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:34.147965 192.168.1.99:4504 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:62163 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x8B127C37  Ack: 0xCB0BCFA5  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:07:40.913144 192.168.1.99:4543 -> 192.168.1.107:502
+TCP TTL:128 TOS:0x0 ID:62349 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x19114F21  Ack: 0xD1AFD17E  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:42.391863 192.168.1.100:1030 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:62092 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xA4112FB5  Ack: 0x88894C3F  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:43.208527 192.168.1.100:1039 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:62094 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x4392D272  Ack: 0xCEE77C2C  Win: 0xFADF  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:43.208535 192.168.1.99:4584 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:62371 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x5394BBCD  Ack: 0x5712B32A  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:43.208539 192.168.1.99:4584 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:62372 IpLen:20 DgmLen:52 DF
+***AP**F Seq: 0x5394BBD9  Ack: 0x5712B32A  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:43.208547 192.168.1.100:1030 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:62098 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA4112FC1  Ack: 0x88894C3F  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:43.902140 192.168.1.106:502 -> 192.168.1.100:1030
+TCP TTL:128 TOS:0x0 ID:32736 IpLen:20 DgmLen:74 DF
+***AP*** Seq: 0x88894C50  Ack: 0xA4112FDA  Win: 0xFACC  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:52.594770 192.168.1.100:1081 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:62347 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xF5C84E99  Ack: 0x911494A8  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:53.340339 192.168.1.100:1081 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:62348 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0xF5C84EA5  Ack: 0x911494A8  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:07:55.006144 192.168.1.100:1081 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:62352 IpLen:20 DgmLen:76 DF
+***AP**F Seq: 0xF5C84E99  Ack: 0x911494A8  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:02.611124 192.168.1.100:1123 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:62550 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x98D22B85  Ack: 0x2AEA16BE  Win: 0xFADF  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:08:06.903418 192.168.1.99:4668 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:62841 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x82B3DC06  Ack: 0x94D4D749  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:08:06.904317 192.168.1.100:1118 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:62600 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xD9B1F014  Ack: 0x4820EED9  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:22.710415 192.168.1.100:1194 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:62818 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xD8180CD9  Ack: 0x60BA48F2  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:23.312124 192.168.1.100:1194 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:62827 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xD8180CE5  Ack: 0x60BA48F2  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:24.301291 192.168.1.100:1237 -> 192.168.1.109:502
+TCP TTL:128 TOS:0x0 ID:63063 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x5CDBB631  Ack: 0x9E1F5FA  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:25.162979 192.168.1.100:1237 -> 192.168.1.109:502
+TCP TTL:128 TOS:0x0 ID:63092 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x5CDBB63D  Ack: 0x9E1F604  Win: 0xFAE6  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:08:28.604480 192.168.1.99:4795 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:63528 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x6B392582  Ack: 0xCDB9F316  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:08:32.000940 192.168.1.99:4809 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:63565 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x3301E853  Ack: 0xD49A6F2A  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:41.730123 192.168.1.100:1291 -> 192.168.1.109:502
+TCP TTL:128 TOS:0x0 ID:63341 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xFBFEA2F0  Ack: 0x2C4820AF  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:42.810514 192.168.1.100:1308 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:63455 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xD0C57F5F  Ack: 0xDA78E7FE  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:42.810521 192.168.1.99:4872 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:63800 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x920AFF73  Ack: 0xD4FA01FD  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:43.828644 192.168.1.99:4872 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:63802 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x920AFF7F  Ack: 0xD4FA01FD  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:08:44.402605 192.168.1.100:1308 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:63482 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xD0C57F6B  Ack: 0xDA78E7FE  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:08:53.425940 192.168.1.100:1312 -> 192.168.1.105:502
+TCP TTL:128 TOS:0x0 ID:63696 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xF7C3F22E  Ack: 0x51EE2A39  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:09:12.516378 192.168.1.100:1407 -> 192.168.1.105:502
+TCP TTL:128 TOS:0x0 ID:64018 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xB6C0D373  Ack: 0x6E427E4A  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:09:23.019765 192.168.1.99:1032 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:64709 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x571E14D1  Ack: 0xB8AF5F0C  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:09:23.019770 192.168.1.99:1032 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:64711 IpLen:20 DgmLen:40
+*****R** Seq: 0x571E14D1  Ack: 0x571E14D1  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:09:33.200047 192.168.1.100:1458 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:64527 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xF1153D2E  Ack: 0xCAD5BB1A  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:09:33.200132 192.168.1.100:1458 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:64528 IpLen:20 DgmLen:40
+*****R** Seq: 0xF1153D2E  Ack: 0xF1153D2E  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:09:53.954770 192.168.1.100:1492 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:64827 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0xE68A363A  Ack: 0xCF53F0B3  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:04.497137 192.168.1.100:1556 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:64987 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xEEBD7882  Ack: 0xD031BE85  Win: 0xFADF  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:09.441844 192.168.1.99:1117 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:65055 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xAB85AFAD  Ack: 0x2FA80F11  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:09.441846 192.168.1.99:1119 -> 192.168.1.109:502
+TCP TTL:128 TOS:0x0 ID:65056 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x8A911814  Ack: 0xD7ACF63  Win: 0xFAE6  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:09.728286 192.168.1.99:1125 -> 192.168.1.108:502
+TCP TTL:128 TOS:0x0 ID:65089 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x11017E63  Ack: 0x93CB9986  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:10.917027 192.168.1.99:1125 -> 192.168.1.108:502
+TCP TTL:128 TOS:0x0 ID:65121 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x11017E6F  Ack: 0x93CB9997  Win: 0xFADF  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:12.430359 192.168.1.99:1140 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:65177 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x7B5A417  Ack: 0x10FF6632  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:12.430395 192.168.1.99:1140 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:65186 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x7B5A423  Ack: 0x10FF663C  Win: 0xFAE6  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:10:18.349978 192.168.1.100:1585 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:65192 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x67286776  Ack: 0xCC64BD4F  Win: 0x0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:10:18.349993 192.168.1.100:1585 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:65193 IpLen:20 DgmLen:40
+*****R** Seq: 0x67286776  Ack: 0x67286776  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:18.845025 192.168.1.99:1154 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:65355 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x4183C65  Ack: 0xB1549CC1  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:19.089386 192.168.1.99:1150 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:65369 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x9A826339  Ack: 0x417A4A04  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:21.738646 192.168.1.100:1626 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:65348 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x6F88825B  Ack: 0xAA21763C  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:10:21.751827 192.168.1.100:1634 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:65374 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x86AA21BF  Ack: 0xB3162AB4  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:11:15.121954 192.168.1.100:1832 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:1022 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x64D21C84  Ack: 0x5DEDCF6F  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:11:59.968627 192.168.1.99:1651 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:2742 IpLen:20 DgmLen:52 DF
+***AP**F Seq: 0x66A30AD0  Ack: 0x822387C  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:12:52.354043 192.168.1.100:2203 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:3302 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xA04F1B8C  Ack: 0xE31E28D0  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:14:02.221077 192.168.1.100:2454 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:4772 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xB1CA3908  Ack: 0x17B0FD23  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:14:11.925558 192.168.1.100:2467 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:4975 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xAE741CB7  Ack: 0xFB6B6F49  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:14:12.210871 192.168.1.100:2461 -> 192.168.1.104:502
+TCP TTL:128 TOS:0x0 ID:4977 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x1D8F0425  Ack: 0x65D25FF5  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:14:12.491081 192.168.1.100:2467 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:4990 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xAE741CC3  Ack: 0xFB6B6F49  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:14:13.743716 192.168.1.100:2467 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:4995 IpLen:20 DgmLen:52 DF
+***AP**F Seq: 0xAE741CCF  Ack: 0xFB6B6F49  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:15:58.557338 192.168.1.99:2517 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:8181 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x8887D34A  Ack: 0x210AC1D3  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:16:31.759269 192.168.1.100:3007 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:8988 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x753C4EC4  Ack: 0x5B56DEB7  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:16:31.892230 192.168.1.100:2987 -> 192.168.1.107:502
+TCP TTL:128 TOS:0x0 ID:9015 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x264BBDCC  Ack: 0x5699E45A  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:16:38.845357 192.168.1.99:2672 -> 192.168.1.107:502
+TCP TTL:128 TOS:0x0 ID:9034 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x8EE8B7E7  Ack: 0xCB657382  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:13.193207 192.168.1.99:2769 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:9734 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0x712D9FD3  Ack: 0xC14B1026  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:13.417692 192.168.1.100:3133 -> 192.168.1.103:502
+TCP TTL:128 TOS:0x0 ID:9781 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0x607E4539  Ack: 0x120AD733  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:13.994272 192.168.1.103:502 -> 192.168.1.99:2769
+TCP TTL:128 TOS:0x0 ID:33876 IpLen:20 DgmLen:74 DF
+***AP**F Seq: 0xC14B1037  Ack: 0x712D9FEC  Win: 0xFACC  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:13.994274 192.168.1.103:502 -> 192.168.1.100:3133
+TCP TTL:128 TOS:0x0 ID:33877 IpLen:20 DgmLen:74 DF
+***AP**F Seq: 0x120AD744  Ack: 0x607E4552  Win: 0xFACC  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:21.122465 192.168.1.99:2866 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:9982 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x6F4BFBE0  Ack: 0x906462AE  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:21.488852 192.168.1.99:2867 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:9989 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x8F7CAB80  Ack: 0x467B61C6  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:22.948105 192.168.1.99:2866 -> 192.168.1.112:502
+TCP TTL:128 TOS:0x0 ID:9990 IpLen:20 DgmLen:64 DF
+***AP**F Seq: 0x6F4BFBEC  Ack: 0x906462AE  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:23.499097 192.168.1.100:3187 -> 192.168.1.105:502
+TCP TTL:128 TOS:0x0 ID:9951 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x649C1AD  Ack: 0x7B5CD78F  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:23.499100 192.168.1.99:2867 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:9993 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x8F7CAB8C  Ack: 0x467B61C6  Win: 0xFAF0  TcpLen: 20
+
+[**] [129:15:1] Reset outside window [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+04/30-15:17:23.499123 192.168.1.100:3166 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:9955 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x397B75E9  Ack: 0xDE67CB5C  Win: 0x0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:23.604836 192.168.1.100:3190 -> 192.168.1.105:502
+TCP TTL:128 TOS:0x0 ID:9969 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x2A6FD9EF  Ack: 0x17A2B88B  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:17:27.905617 192.168.1.99:2887 -> 192.168.1.110:502
+TCP TTL:128 TOS:0x0 ID:10119 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xA9C6C6F5  Ack: 0xDD7346EF  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:18:11.755986 192.168.1.100:3372 -> 192.168.1.106:502
+TCP TTL:128 TOS:0x0 ID:11019 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xEF9A3765  Ack: 0x890DB832  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:18:21.722903 192.168.1.100:3382 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:11072 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x244204BD  Ack: 0x6552BDB9  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:20:59.545918 192.168.1.99:3644 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:15074 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xC6DD12C3  Ack: 0x8D1625EE  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:23:01.724162 192.168.1.100:4411 -> 192.168.1.101:502
+TCP TTL:128 TOS:0x0 ID:16707 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0xDA0F61E4  Ack: 0x70A54237  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:23:07.911118 192.168.1.99:4120 -> 192.168.1.105:502
+TCP TTL:128 TOS:0x0 ID:17534 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x69923266  Ack: 0xACB51041  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:26:41.740227 192.168.1.100:1246 -> 192.168.1.111:502
+TCP TTL:128 TOS:0x0 ID:20990 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x6A5BCC4D  Ack: 0xB67E701C  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:30:41.735509 192.168.1.100:2103 -> 192.168.1.104:502
+TCP TTL:128 TOS:0x0 ID:25500 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x1871DDB6  Ack: 0xD1EA5D19  Win: 0xFAF0  TcpLen: 20
+
+[**] [144:1:1] (spp_modbus): Length in Modbus MBAP header does not match the length needed for the given Modbus function. [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+04/30-15:33:01.775229 192.168.1.100:2629 -> 192.168.1.102:502
+TCP TTL:128 TOS:0x0 ID:28304 IpLen:20 DgmLen:52 DF
+***AP*** Seq: 0x744DCCB8  Ack: 0xC4A1165D  Win: 0xFAF0  TcpLen: 20
+

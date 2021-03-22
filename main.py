@@ -1,5 +1,5 @@
 #############################################################
-#            Snort Net Viewer                               #
+#            SnortNetViewer                               #
 #            author: David Krüger                           #
 #            https://github.com/david-tub/snort-net-viewer  #
 #############################################################
@@ -33,8 +33,9 @@ if __name__ == '__main__':
     processing_start = process_time()
 
     # read and import log file
-    read = my_parser.read_log_file(p.file_path)
-    imported = my_parser.import_alerts(read)
+    if p.mode != 'import-display':
+        read = my_parser.read_log_file(p.file_path)
+        imported = my_parser.import_alerts(read)
 
     # export csv and exit
     if p.mode == 'export-only':
@@ -51,13 +52,15 @@ if __name__ == '__main__':
         # build network and dash server (use csv files)
         my_server.build(nodes_file=nodes_file, edges_file=edges_file, alert_file=p.file_path, timer_start=processing_start)
         # start server
-        my_server.app.run_server(debug=True)
+        print('[*] Starting the server ...')
+        my_server.app.run_server(debug=False)
     # import given csv file and display
     elif p.mode == 'import-display':
         # build network and dash server
         my_server.build(nodes_file=p.nodes_file_path, edges_file=p.edges_file_path, timer_start=processing_start)
         # start server
-        my_server.app.run_server(debug=True)
+        print('[*] Starting the server ...')
+        my_server.app.run_server(debug=False)
     # 'display-only' - visualize directly without export
     # enable time range adjustment
     elif p.mode == 'display-only':
@@ -73,7 +76,8 @@ if __name__ == '__main__':
         # build network and dash server
         my_server.build(nodes=nodes_list, edges=edges_list, time_ranges=time_ranges, alert_file=p.file_path, timer_start=processing_start)
         # start server
-        my_server.app.run_server(debug=True)
+        print('[*] Starting the server ...')
+        my_server.app.run_server(debug=False)
     else:
         print('[*] ERROR: unknown mode')
         exit(-1)
